@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Nav_bar({colorValue="bg-blue-400",setColorValue,setDarkMode,darkModeValue=false}) {
+function Nav_bar({colorValue="bg-blue-400",setColorValue,setDarkMode}) {
   
   
   let darkModeColor=colorValue==="bg-gray-800"?"bg-gray-800":colorValue;

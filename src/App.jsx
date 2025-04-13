@@ -24,7 +24,7 @@ function toggleDarkMode(){
 }
   return (
     <div className={`min-h-screen ${darkModeValue? "bg-gray-900":"bg-white"}`}> 
-    <Nav_bar colorValue={colorValue} setColorValue={SetBackgroundColor}  setDarkMode={toggleDarkMode} darkModeValue={darkModeValue}/>
+    <Nav_bar colorValue={colorValue} setColorValue={SetBackgroundColor}  setDarkMode={toggleDarkMode}/>
     <Text_area textValue={textValue} setTextValue={setTextValue} darkMode={darkModeValue} colorValue={colorValue}/>
     <Row_buttons child1='UpperCase' child2='LowerCase' child3='Clear' child4='Copy' textValue={textValue} setTextValue={setTextValue}/>
 <Text_properties textValue={textValue}/>
